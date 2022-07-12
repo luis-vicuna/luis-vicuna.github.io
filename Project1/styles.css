@@ -1,0 +1,169 @@
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+header{
+  width: 100%;
+  height:70px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  background-color:black ;
+}
+.logo, .flag{
+  width:70px;
+  padding: 10px;
+}
+.logo{
+  float: left;
+  margin-left: 20px;
+}
+
+.flag{
+  float: right;
+  margin-right: 20px;
+}
+
+h1{
+  text-align: center;
+}
+.inbox{
+  margin: 10px;
+}
+.box{
+  margin: 20px;
+
+}
+.box1{
+  margin: 20px;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: #e9f0fc;
+}
+.box2,.box3 {
+display:flex;
+justify-content: space-between;
+align-items: center;
+margin: 10px;
+}
+
+.box1 img{
+  border: 4px solid navy;
+  height: 250px;
+}
+
+.tab{
+  padding-top: 0;
+  margin-left: 30px;
+}
+
+.line{
+  border: 1px solid skyblue;
+}
+
+table{
+  border: 1px solid black;
+}
+
+.top1{
+  background-color: skyblue;
+  font-weight: bold;
+}
+
+.highlight{
+  background-color: pink;
+}
+.main img{
+  width:40px;
+}
+
+.icon1, .icon2, .icon3{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.main img{
+  margin: 3px;
+}
+/*Footer Nav bar*/
+nav{
+  list-style-type: none;
+  margin:0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+nav li{
+  display: inline;
+}
+
+nav li a{
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
+  color: white;
+}
+
+nav li a:hover{
+  color: skyblue;
+}
+
+/*Northern Lights*/
+.pagetitle{
+  color: white;
+}
+
+.boxNL{
+  display:flex;
+  margin:20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.pbox{
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+
+.boxNL img{
+  height: 500px;
+  width: 700px;
+}
+
+/*Contact*/
+.formbox{
+  text-align: center;
+}
+.forms{
+  text-align: center;
+}
+.forms button{
+  background-color: skyblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.forms button:hover{
+  background-color: navy;
+}
