@@ -1,0 +1,88 @@
+body{
+  background-image: url("city.jpeg");
+  background-repeat: no-repeat;
+}
+.box{
+  border: 2px solid red;
+  width: 400px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  text-align: center;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 13px;
+}
+
+.box a{
+  text-decoration: none;
+  color: yellow;
+}
+
+.clock{
+  width: 300px;
+  position: relative;
+}
+
+.clockimg{
+  width:100%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
+}
+
+.hand1{
+  width:70px;
+  height: 30px;
+  position: absolute;
+  top:44%;
+  left:150px;
+  animation-name: spinhour;
+  animation-duration: 10s;
+}
+
+.hand2{
+  width:30px;
+  height: 100px;
+  position: absolute;
+  top:17%;
+  left:135px;
+  transform-origin: 0%;
+  animation-name: spinmin;
+  animation-duration: 10s;
+}
+
+.circle{
+  border-radius: 50%
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  top: 20%;
+}
+
+@keyframes spinhour{
+  from{
+    transform: rotate(0deg);
+    transform-origin:left;
+  }
+  to{
+    transform: rotate(30deg);
+    transform-origin:left;
+  }
+
+}
+
+@keyframes spinmin{
+  from{
+    transform: rotate(0deg);
+    transform-origin:bottom;
+  }
+  to{
+    transform: rotate(360deg);
+    transform-origin:bottom;
+  }
+
+}
