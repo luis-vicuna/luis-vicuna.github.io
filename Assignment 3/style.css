@@ -41,6 +41,7 @@ body{
   left:150px;
   animation-name: spinhour;
   animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 
 .hand2{
@@ -52,6 +53,7 @@ body{
   transform-origin: 0%;
   animation-name: spinmin;
   animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 
 .circle{
