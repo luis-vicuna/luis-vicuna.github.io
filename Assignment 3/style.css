@@ -55,12 +55,13 @@ body{
 }
 
 .circle{
-  border-radius: 50%
+  border-radius: 50%;
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   background-color: black;
-  top: 20%;
+  top:47%;
+  left: 142px;
 }
 
 @keyframes spinhour{
