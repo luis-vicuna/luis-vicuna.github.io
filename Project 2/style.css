@@ -113,12 +113,13 @@ header img{
 .part2{
   display: flex;
   justify-content: space-between;
+  background-image: url("Images/ban2.jpg");
 }
 
 .side1, .side2{
   width: 500px;
   margin: 8px;
-  border: 2px solid red;
+
 }
 .side1{
   position: relative;
@@ -135,7 +136,7 @@ header img{
   background-image: linear-gradient(to right, rgba(255,255,0,0.3), rgba(0,255,255,0.2));
   border: 2px solid white;
   border-radius: white;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -178,7 +179,7 @@ header img{
   color: white;
   padding: 8px;
   margin: 8px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .button:hover{
   background-color: red;
